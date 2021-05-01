@@ -1,0 +1,32 @@
+- time: 60 * 5
+  label: Takes no time at all
+- time: 60 * 15
+  label: I *know* its done quick
+- time: 60 * 30
+  label: It *should* be done quick
+- time: 60 * 60
+  label: It's an easy task
+- time: 60 * 60 * 2
+  label: I don't need to think about this a lot
+- time: 60 * 60 * 4
+  label: I need to think about this for a while
+- time: 60 * 60 * 6
+  label: I need to think about this quite a bit
+- time: 60 * 60 * 8
+  label: I need to think about this very hard
+- time: 60 * 60 * 24 * 1.5 - 60 * 60 * 8
+  label: It should be done in a day.
+- time: 60 * 60 * 24 * 2
+  label: I *know* it's done in two days
+- time: 60 * 60 * 24 * 2.5 - 60 * 60 * 8
+  label: It *should* be done in two days
+- time: 60 * 60 * 24 * 3
+  label: This will take a few days of my week
+- time: 60 * 60 * 24 * 3.5 - 60 * 60 * 8
+  label: This will take about half of my week
+- time: 60 * 60 * 24 * 4
+  label: I need most of my week for this
+- time: 60 * 60 * 24 * 4.5 - 60 * 60 * 8
+  label: I need the whole week
+- time: 60 * 60 * 24 * 5
+  label: I need the whole week without distractions
